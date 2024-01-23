@@ -1,0 +1,114 @@
+
+
+.sidebar{
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding: 10px 0 20px 10px;
+  width: 300px;
+
+}
+
+.sidebar_navegation{
+  background-color: #121212;
+  padding: 20px;
+  border-radius: 8px;
+  width: 285px;
+  height: 120px;
+
+
+}
+
+.navegation_logo .logo{
+
+ padding: 0 16px;
+}
+.navegation_logo ul li  {
+  font-size: 16px;
+  margin: 20px 0 0 0;
+  text-decoration: none;
+
+
+}
+.navegation_logo a {
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  color: #b3b3b3;
+  font-weight: 700;
+  font-family: "DM Sans", sans-serif;
+  column-gap: 15px;
+}
+.navegation_logo span {
+  font-size: 18px;
+}
+.logo img {
+  width: 80px;
+}
+.navegation_logo .logo_inicio:hover{
+  color: #fff;
+}
+.navegation_logo .logo_buscar:hover{
+  color: #fff;
+}
+/*biblioteca */
+.sidebar_biblioteca {
+  background-color: #121212;
+  width: 314px;
+  border-radius: 8px;
+  padding: 25px 0 25px 10px;
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 300px;
+}
+
+.btn_biblioteca {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  border: none;
+  background-color: transparent;
+  font-size: 16px;
+  color: #b3b3b3;
+  font-weight: 700;
+  font-family: "DM Sans", sans-serif;
+  cursor: pointer;
+  margin-left: 5px;
+   column-gap: 15px;
+}
+.btn_biblioteca:hover {
+  color: #fff;
+}
+.span_mais{
+  display: flex;
+  align-items: center;
+ margin-right: 10px;
+ width: 30px;
+ height: 30px;
+ position: fixed;
+ padding: 5px;
+  top: 195px;
+ left: 280px;
+}
+ .span_mais .btn_mais{
+  border: none;
+  background-color: transparent;
+  font-size: 20px;
+  color: #b3b3b3;
+  font-weight: 700;
+  font-family: "DM Sans", sans-serif;
+  cursor: pointer;
+  font-size: 18px;
+  margin-right: 10px;
+ }
+.span_mais:hover{
+
+   background-color: #5f5e5e;
+   border-radius: 30px;
+
+
+
+ }
+
